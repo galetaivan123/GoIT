@@ -37,8 +37,8 @@ body {
    color: #404bbf;
 }
 
-.address {
-   font-style: normal
+.contuct-us {
+   font-style: normal;
 }
 
 .address-li {
@@ -48,27 +48,15 @@ body {
    letter-spacing: 0.02em;
 }
 
-.address-mail {
+.address-info {
    color: #434455;
 }
 
-.address-mail:hover {
+.address-info:hover {
    color: #404bbf;
 }
 
-.address-mail:focus {
-   color: #404bbf;
-}
-
-.address-phone {
-   color: #434455;
-}
-
-.address-phone:hover {
-   color: #404bbf;
-}
-
-.address-phone:focus {
+.address-info:focus {
    color: #404bbf;
 }
 
