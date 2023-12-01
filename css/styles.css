@@ -1,5 +1,35 @@
+body {
+   font-family: "Roboto", "Raleway", "Arial";
+}
+
+.header-logo {
+   color: black;
+   font-family: "Raleway";
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.header-span {
+   color: #4D5AE5
+}
+
+.header-li {
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.address-li {
+   font-weight: 400;
+   font-size: 16px;
+}
+
 .solutions {
    background-color: #2E2F42;
+}
+
+.solutions-title {
+   font-weight: 700;
+   font-size: 56px;
 }
 
 .solutions-title {
@@ -9,32 +39,65 @@
 .sol-button {
    background-color: #4D5AE5;
    color: white;
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 16px;
 }
 
-.header-logo {
-   color: black
+.benefits-title {
+   font-weight: 500;
+   font-size: 20px;
 }
 
-.header-span {
-   color: #4D5AE5
+.benefits-par {
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.team {
+   background-color: #F4F4FD;
+}
+
+.team-title {
+   font-weight: 700;
+   font-size: 36px;
+}
+
+.team-name {
+   font-weight: 500;
+   font-size: 20px;
+}
+
+.team-member {
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.portfolio-title {
+   font-weight: 500;
+   font-size: 20px;
+}
+
+.portfolio-par {
+   font-weight: 400;
+   font-size: 16px;
 }
 
 .footer {
    background-color: #2E2F42;
 }
 
-.footer-p {
-   color: white
+.footer-par {
+   color: white;
+   font-weight: 400;
+   font-size: 16px;
 }
 
 .footer-logo {
-   color: white
+   color: white;
+   font-family: "Raleway";
 }
 
 .footer-span {
    color: #4D5AE5
-}
-
-.team {
-   background-color: #F4F4FD;
 }
