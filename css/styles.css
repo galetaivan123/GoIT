@@ -11,6 +11,7 @@ body {
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
+   color: #4d5ae5;
 }
 
 .header-span {
@@ -41,15 +42,13 @@ body {
    font-style: normal;
 }
 
-.address-li {
+.address-info {
+   color: #434455;
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-}
 
-.address-info {
-   color: #434455;
 }
 
 .address-info:hover {
