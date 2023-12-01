@@ -11,7 +11,6 @@ body {
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: #4d5ae5;
 }
 
 .header-span {
@@ -26,11 +25,15 @@ body {
    color: #2e2f42;
 }
 
-.header-li:hover {
+.studio {
+   color: #2e2f42;
+}
+
+.studio:hover {
    color: #404bbf;
 }
 
-.header-li:focus {
+.studio:focus {
    color: #404bbf;
 }
 
@@ -38,20 +41,35 @@ body {
    font-style: normal
 }
 
-.contacts {
+.address-li {
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+}
+
+.address-mail {
    color: #434455;
 }
 
-.contacts:hover {
+.address-mail:hover {
+   color: #404bbf;
+}
+
+.address-mail:focus {
+   color: #404bbf;
+}
+
+.address-phone {
    color: #434455;
 }
 
-.contacts:focus {
-   color: #434455;
+.address-phone:hover {
+   color: #404bbf;
+}
+
+.address-phone:focus {
+   color: #404bbf;
 }
 
 .solutions {
@@ -136,7 +154,7 @@ body {
    color: #434455;
 }
 
-.portfolio {
+.portfolio-name {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
