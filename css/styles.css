@@ -203,6 +203,11 @@ img {
    margin-bottom: 0;
 }
 
+.container-team {
+   padding: 32px 0;
+   
+}
+
 .team-list:nth-child(4) {
    margin-right: 0;
 }
@@ -217,6 +222,7 @@ img {
    color: #2e2f42;
    margin: 0;
    padding-top: 120px;
+   margin-bottom: 72px;
 }
 
 .team-li {
@@ -262,10 +268,16 @@ img {
    margin-bottom: 72px;
 }
 
+.container-port {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
+   margin-bottom: 8px;
+}
+
 .portfolio-list {
    padding: 0;
    display: flex;
-   gap: 32px;
    margin-left: 156px;
    flex-direction: raw;
    align-items: flex-start;
@@ -273,6 +285,7 @@ img {
    flex-wrap: wrap;
    margin-bottom: 120px;
    column-gap: 24px;
+   row-gap: 48px;
 }
 
 .portfolio-list:nth-child(3n) {
