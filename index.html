@@ -7,6 +7,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap"
     rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">
+
 
 <head>
     <meta charset="UTF-8">
@@ -18,25 +20,27 @@
 
 <body>
     <header class="header">
-        <nav class="header-nav">
+        <div class="container">
+            <nav class="header-nav">
                 <a class="header-logo" href="./index.html">Web<span class="header-span">Studio</span></a>
                 <ul class="header-list">
                     <li class="header-li"><a class="studio" href="./index.html">Studio</a></li>
                     <li class="header-li"><a class="studio" href="">Portfolio</a></li>
                     <li class="header-li"><a class="studio" href="">Contacts</a></li>
                 </ul>
-            <address class="contact-us">
-                <ul class="address-list">
-                    <li class="address-li">
-                        <a class="address-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="address-li">
-                        <a class="address-info" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <address class="contact-us">
+                    <ul class="address-list">
+                        <li class="address-li">
+                            <a class="address-info" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="address-li">
+                            <a class="address-info" href="tel:+110001111111">+11 (000) 111-11-11</a>
 
-                    </li>
-                </ul>
-            </address>
-        </nav>
+                        </li>
+                    </ul>
+                </address>
+            </nav>
+        </div>
     </header>
     <div class="container">
         <main>
@@ -55,7 +59,8 @@
                     </li>
                     <li class="benefits-li">
                         <h3 class="benefits-title">Punctuality</h3>
-                        <p class="benefits-par">Bring the key message to the</br> brand's audience for the best price</br>
+                        <p class="benefits-par">Bring the key message to the</br> brand's audience for the best
+                            price</br>
                             within
                             the shortest possible
                             time.</p>
@@ -102,44 +107,46 @@
                 </ul>
             </section>
             <section class="section">
-                <h2 class="portfolio-name">Our Portfolio</h2>
-                <ul class="portfolio-list">
-                    <li class="portfolio-li">
-                        <img src="./images/Banking App.jpg" width="360px" alt="#">
-                        <h3 class="portfolio-title">Banking App</h3>
-                        <p class="portfolio-par">App</p>
-                    </li>
-                    <li class="portfolio-li">
-                        <img src="./images/Cashless payment.jpg" width="360px" alt="#">
-                        <h3 class="portfolio-title">Cashless Payment</h3>
-                        <p class="portfolio-par">Marketing</p>
-                    </li>
-                    <li class="portfolio-li">
-                        <img src="./images/Meditation App.jpg" width="360px" alt="#">
-                        <h3 class="portfolio-title">Meditation App</h3>
-                        <p class="portfolio-par">App</p>
-                    </li>
-                    <li class="portfolio-li">
-                        <img src="./images/Taxi Service.jpg" width="360px" alt="#">
-                        <h3 class="portfolio-title">Taxi Service</h3>
-                        <p class="portfolio-par">Marketing</p>
-                    </li>
-                    <li class="portfolio-li">
-                        <img src="./images/Screen Illustration.jpg" width="360px" alt="#">
-                        <h3 class="portfolio-title">Screen Illustrations</h3>
-                        <p class="portfolio-par">Design</p>
-                    </li>
-                    <li class="portfolio-li">
-                        <img src="./images/Online Courses.jpg" width="360px" alt="#">
-                        <h3 class="portfolio-title">Online Courses</h3>
-                        <p class="portfolio-par">Marketing</p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <h2 class="portfolio-name">Our Portfolio</h2>
+                    <ul class="portfolio-list">
+                        <li class="portfolio-li">
+                            <img src="./images/Banking App.jpg" width="360px" alt="#">
+                            <h3 class="portfolio-title">Banking App</h3>
+                            <p class="portfolio-par">App</p>
+                        </li>
+                        <li class="portfolio-li">
+                            <img src="./images/Cashless payment.jpg" width="360px" alt="#">
+                            <h3 class="portfolio-title">Cashless Payment</h3>
+                            <p class="portfolio-par">Marketing</p>
+                        </li>
+                        <li class="portfolio-li">
+                            <img src="./images/Meditation App.jpg" width="360px" alt="#">
+                            <h3 class="portfolio-title">Meditation App</h3>
+                            <p class="portfolio-par">App</p>
+                        </li>
+                        <li class="portfolio-li">
+                            <img src="./images/Taxi Service.jpg" width="360px" alt="#">
+                            <h3 class="portfolio-title">Taxi Service</h3>
+                            <p class="portfolio-par">Marketing</p>
+                        </li>
+                        <li class="portfolio-li">
+                            <img src="./images/Screen Illustration.jpg" width="360px" alt="#">
+                            <h3 class="portfolio-title">Screen Illustrations</h3>
+                            <p class="portfolio-par">Design</p>
+                        </li>
+                        <li class="portfolio-li">
+                            <img src="./images/Online Courses.jpg" width="360px" alt="#">
+                            <h3 class="portfolio-title">Online Courses</h3>
+                            <p class="portfolio-par">Marketing</p>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
     </div>
     <footer class="footer">
-        <div class="footer-content">
+        <div class="footer-content container">
             <a class="footer-logo" href="./index.html">Web<span class="footer-span">Studio</span></a>
             <p class="footer-par">Increase the flow of customers and</br> sales for your business with digital</br>
                 marketing & growth
